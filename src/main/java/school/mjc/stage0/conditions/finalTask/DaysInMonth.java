@@ -23,7 +23,7 @@ public class DaysInMonth {
             default -> {
                 yield "invalid date";
             }
-        };
+        }
         System.out.println(amountOfDays);
     }
 }
